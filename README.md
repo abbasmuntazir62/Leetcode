@@ -41,7 +41,7 @@ I am solving problems daily to improve my problem-solving skills and prepare for
 - Java (Primary)
 
 ## 🌐 My Profiles
-- LeetCode: [https://github.com/abbasmuntazir62/Leetcode/edit/main/README.md]
+- LeetCode: [https://github.com/abbasmuntazir62/Leetcode]
 - LinkedIn: [https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BazuH6b35SwGVre6FpBJlfw%3D%3D]
 
 ---
