@@ -1,12 +1,32 @@
+// class Solution {
+//     public int missingNumber(int[] nums) {
+//         int allXOR = 0;
+//         //iterate all the element fron range 0 to n
+//         for(int i = 0; i < nums.length;i++){
+//             allXOR = allXOR^i;
+//         }
+//         //iterate existing element 
+//         for(int num : nums){
+//             allXOR = allXOR^num;
+//         }
+    
+//     return allXOR;
+// }
+// }
 class Solution {
     public int missingNumber(int[] nums) {
-        int n = nums.length;
-        int expectedsum = n*(n+1)/2;
-        int actualsum = 0;
-        for(int num:nums){
-        actualsum += num;
+        int allXOR = 0;
+
+        // 0 to n
+        for (int i = 0; i <= nums.length; i++) {
+            allXOR = allXOR ^ i;
         }
-        return expectedsum - actualsum;
-        
+
+        // Existing elements
+        for (int num : nums) {
+            allXOR = allXOR ^ num;
+        }
+
+        return allXOR;
     }
 }
